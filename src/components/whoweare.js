@@ -8,11 +8,13 @@ class whoweare extends React.Component {
                 backgroundColor: "#660033",
                 textAlign: "center",
                 paddingTop: "50px",
-                paddingBottom: "50px"
+                paddingBottom: "50px",
+                width: "100%",
+                height: "100%"
             }}>
-                <div>
-                    <h1 style={{color: "red"}}><b>WHO WE ARE</b></h1>
-                    <p style={{color: "white"}}>
+                <div style={{paddingTop: "50px", paddingBottom: "50px"}}>
+                    <h1 style={{color: "red", fontFamily: "Helvitica", fontSize: "50px"}}><b>WHO WE ARE</b></h1>
+                    <p style={{color: "white", fontFamily: "Arial"}}>
                         <b>
                         Gambit Communications is a consultancy founded by Jamal Al Mawed bringing together
                         <br></br>
@@ -23,18 +25,24 @@ class whoweare extends React.Component {
                     </p>
                 </div>
 
-                <div style={{display: "flex"}}>
-                    <div style={{display: "flex"}}>
-                        <img src={ChessHorse} alt="chess horse" style={{borderRadius: "50%"}}></img>
-                        <p>
-                            lorem ipsum bala7
+                <div style={{display: "flex", justifyContent: "center", paddingLeft: "30px"}}>
+                    <div style={{display: "flex", color: "white", paddingRight: "20px"}}>
+                        <img src={ChessHorse} alt="chess horse"></img>
+                        <p style={{paddingTop: "30px", width: "50%", fontFamily: "Arial"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Et pharetra pharetra massa massa ultricies mi quis. 
+                        Ut tortor pretium viverra suspendisse potenti.
                         </p>
                     </div>
                     
-                    <div style={{display: "flex"}}>
-                        <img src={ChessHorse} alt="chess king" style={{borderRadius: "50%"}}></img>
-                        <p>
-                            lorem ipsum bala7 part2
+                    <div style={{display: "flex", color: "white"}}>
+                        <img src={ChessHorse} alt="chess king"></img>
+                        <p style={{paddingTop: "30px", width: "50%", fontFamily: "Arial"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Et pharetra pharetra massa massa ultricies mi quis. 
+                        Ut tortor pretium viverra suspendisse potenti.
                         </p>
                     </div>
                 </div>

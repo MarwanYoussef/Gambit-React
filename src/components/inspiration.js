@@ -1,48 +1,54 @@
 import React from 'react';
-import chessLogo from '../chessLogo.png';
+import ChessHorde from '../chessHorde.png';
 
 class inspiration extends React.Component {
     render() {
         return (
-            <div class="flex-container" style={{display: "flex"}}>
+            <div class="flex-container" style={{
+                display: "flex",
+                width: "100%",
+                height: "100%",
+                paddingBottom: "50px"
+            }}>
                 <div style={{paddingLeft: "50px"}}>
                     <div style={{
                         color: "red", 
                         paddingBottom: "30px",
                         paddingTop: "50px"
                     }}>
-                        <h1><b>INSPIRATION</b></h1>
+                        <h1 style={{fontSize: "70px", fontFamily: "serif"}}><b>INSPIRATION</b></h1>
                     </div>
                     
-                    <div>
-                        <h5 style={{color: "#f56042"}}>CHESS [noun]:</h5>
-                        <p>
-                            lorem ipsum a7e bo7eeh
+                    <div style={{width: "65%"}}>
+                        <h5 style={{color: "#f56042", fontFamily: "sans-serif"}}>CHESS [noun]:</h5>
+                        <p style={{width: "inherit"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Et pharetra pharetra massa massa ultricies mi quis. Ut tortor pretium viverra 
+                        suspendisse potenti. Viverra nibh cras pulvinar mattis. Duis at consectetur lorem 
+                        donec massa.
                         </p>
                     </div>
 
-                    <div>
-                        <h5 style={{color: "#f56042"}}>GAMBIT [noun]:</h5>
-                        <p>
-                            lorem ipsum a7e bo7eh
+                    <div style={{width: "65%"}}>
+                        <h5 style={{color: "#f56042", fontFamily: "sans-serif"}}>GAMBIT [noun]:</h5>
+                        <p style={{
+                            width: "inherit"
+                        }}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Et pharetra pharetra massa massa ultricies mi quis. 
+                        Ut tortor pretium viverra suspendisse potenti. Viverra nibh cras pulvinar mattis.
                         </p>
                     </div>
                 </div>
-                <div>
-                    <img 
-                        src={chessLogo} 
-                        alt="chessLogo"
-                        width="70%"
-                        height="90%"
-                        style={{
-                            paddingLeft: "400px",
-                            paddingTop: "50px",
-                            borderTopLeftRadius: "50% 50%",
-                            borderTopRightRadius: "50% 50%",
-                            borderBottomRightRadius: "50% 50%",
-                            borderBottomLeftRadius: "50% 50%"
-                        }}>
-                    </img>
+                <div style={{
+                    display: "flex", 
+                    justifyContent: "center", 
+                    paddingRight: "200px", 
+                    paddingTop: "50px"
+                    }}>
+                        <img src={ChessHorde} alt="chess logo"></img>
                 </div>
             </div>
         );

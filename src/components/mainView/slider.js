@@ -8,7 +8,8 @@ class slider extends React.Component {
                     textAlign: "center", 
                     color: "white",
                     paddingTop: "50px",
-                    paddingBottom: "50px"
+                    paddingBottom: "50px",
+                    fontFamily: "Helvetica"
                 }}>
                 <h1 style={{fontSize: "140px"}}>
                     <b>LET'S<br></br>PLAY</b>
